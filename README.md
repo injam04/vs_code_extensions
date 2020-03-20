@@ -1,4 +1,4 @@
-# vs_code_extensions
+# VS Code Extensions
 All of my vs code extensions &amp; setup method
 
 ## 1. SynthWave '84 (Theme)
