@@ -8,3 +8,7 @@ All of my vs code extensions &amp; setup method
 
 ## 2. Prettier - Code formatter
 ### Goto settings and type "format on save" and search. Then, tick on "format on save".
+
+## 3. Auto Rename Tag
+
+## 4. Color Highlight
