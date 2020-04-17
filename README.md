@@ -18,7 +18,45 @@ All of my vs code extensions &amp; setup method
   "SpaceAroundParentheses"
 ],
 ````
+## 4. change Font
+### choco install firacode-ttf and then goto settings.json and paste this
+```` 
+"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+"editor.fontSize": 14.5,
+````
 
-## 3. Auto Rename Tag
+## 5. Auto Rename Tag
 
-## 4. Color Highlight
+## 6. Color Highlight
+
+## 6. Live Server
+
+## 7. Lorem ipsum
+
+## 8. PHP Namespace Resolver
+
+## 9. Shades of Purple (Theme)
+
+## 10. vscode-icons
+
+## 11. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studio code
+
+## 12. Laravel Artisan
+
+## 13. Laravel Blade Snippets
+
+## 14. Laravel Snippets
+
+## 15. Vue Theme
+
+## 16. vue
+
+## 17. Vue 2 Snippets
+
+## 18. PHP Intelephense
+
+## 19. jQuery Code Snippets
+
+## 20. Night Owl (Theme)
+
+## 21. Palenight Theme
