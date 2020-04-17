@@ -18,11 +18,12 @@ All of my vs code extensions &amp; setup method
   "SpaceAroundParentheses"
 ],
 ````
-## 4. change Font
-### choco install firacode-ttf and then goto settings.json and paste this
+## 4. Change Font (Operator Mono)
+### Goto settings.json and paste this
 ```` 
-"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
-"editor.fontSize": 14.5,
+"editor.fontFamily": "Operator Mono",
+"editor.fontLigatures": true,
+"editor.fontWeight": "300",
 ````
 
 ## 5. Auto Rename Tag
