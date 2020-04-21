@@ -19,8 +19,7 @@ Goto settings and type "format on save" and search. Then, tick on "format on sav
 
 ## Themes:
 ### 1. SynthWave '84
-=> Press Ctrl + Shift + p and then Enable Neon Dreams
-=> Goto settings.json and paste this
+Goto settings.json and paste this
 ```` "synthwave84.brightness": "0.75" ````
 
 ### 2. Shades of Purple
@@ -35,7 +34,7 @@ Goto settings and type "format on save" and search. Then, tick on "format on sav
 
 ### 7. Dracula Official
 
-### . Change Font (Operator Mono)
+### 8. Change Font (Operator Mono)
 Goto settings.json and paste this
 ```` 
 "editor.fontFamily": "Operator Mono",
@@ -87,34 +86,34 @@ Syntax Highlight for Vue.js
 # User Snippets
 ## For PHP:
 ````
-  "laravel": {
-		"prefix": "pfunction",
-		"body": [
-			"public function $1()",
-			"{",
-			"	",
-			"}",
-		],
-		"description": "public function laravel."
-	}
+"laravel": {
+	"prefix": "pfunction",
+	"body": [
+		"public function $1()",
+		"{",
+		"	",
+		"}",
+	],
+	"description": "public function laravel."
+}
 ````
 ````
-	"laravel2": {
-		"prefix": "returnview",
-		"body": [
-			"return view('$1');",
-		],
-		"description": "return view laravel."
-	}
+"laravel2": {
+	"prefix": "returnview",
+	"body": [
+		"return view('$1');",
+	],
+	"description": "return view laravel."
+}
 ````
 
 ## For Blade:
 ````
-	"print": {
-		"prefix": "print",
-		"body": [
-			"{{ $1 }}",
-		],
-		"description": "print value in blade file."
-	}
+"print": {
+	"prefix": "print",
+	"body": [
+		"{{ $1 }}",
+	],
+	"description": "print value in blade file."
+}
 ````
