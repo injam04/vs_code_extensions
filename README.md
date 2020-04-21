@@ -1,16 +1,51 @@
 # VS Code Extensions
 All of my vs code extensions &amp; setup method
 
-## 1. SynthWave '84 (Theme)
-### Press Ctrl + Shift + p and then Enable Neon Dreams
-### Press Ctrl + Shift + p and then go to settings.json and paste this
+## Basic Things:
+### 1. Prettier - Code formatter
+Goto settings and type "format on save" and search. Then, tick on "format on save".
+
+### 2. Auto Rename Tag
+
+### 3. Color Highlight
+
+### 4. Live Server
+
+### 5. Lorem ipsum
+
+### 6. vscode-icons
+
+### 7. Bracket Pair Colorizer
+
+## Themes:
+### 1. SynthWave '84
+=> Press Ctrl + Shift + p and then Enable Neon Dreams
+=> Goto settings.json and paste this
 ```` "synthwave84.brightness": "0.75" ````
 
-## 2. Prettier - Code formatter
-### Goto settings and type "format on save" and search. Then, tick on "format on save".
+### 2. Shades of Purple
 
-## 3. phpfmt - PHP formatter
-### Goto settings.json and paste this
+### 3. Night Owl
+
+### 4. Palenight Theme
+
+### 5. Vue Theme
+
+### 6. Cobalt2 Theme Official
+
+### 7. Dracula Official
+
+### . Change Font (Operator Mono)
+Goto settings.json and paste this
+```` 
+"editor.fontFamily": "Operator Mono",
+"editor.fontLigatures": true,
+"editor.fontWeight": "300",
+````
+
+## For PHP:
+### 1. phpfmt - PHP formatter
+Goto settings.json and paste this
 ````
 "phpfmt.psr2": false,
 "phpfmt.passes": [
@@ -18,46 +53,68 @@ All of my vs code extensions &amp; setup method
   "SpaceAroundParentheses"
 ],
 ````
-## 4. Change Font (Operator Mono)
-### Goto settings.json and paste this
-```` 
-"editor.fontFamily": "Operator Mono",
-"editor.fontLigatures": true,
-"editor.fontWeight": "300",
+
+### 2. Beautify Blade
+Goto settings and type "blade" and search. Then, tick on "Enabal format blade file".
+
+### 3. PHP Namespace Resolver
+
+### 4. Laravel Blade Snippets
+
+### 5. Laravel Snippets
+
+### 6. PHP Intelephense
+
+## For Vue.js:
+
+### 1. Vetur
+
+### 2. Vue VSCode Snippets
+
+### 3. vue
+Syntax Highlight for Vue.js
+
+### 4. ESLint
+
+## For Bootstrap:
+### 1. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studio code
+
+## Others:
+### 1. jQuery Code Snippets
+
+### 2. Live Sass Compiler
+
+# User Snippets
+## For PHP:
+````
+  "laravel": {
+		"prefix": "pfunction",
+		"body": [
+			"public function $1()",
+			"{",
+			"	",
+			"}",
+		],
+		"description": "public function laravel."
+	}
+````
+````
+	"laravel2": {
+		"prefix": "returnview",
+		"body": [
+			"return view('$1');",
+		],
+		"description": "return view laravel."
+	}
 ````
 
-## 5. Auto Rename Tag
-
-## 6. Color Highlight
-
-## 6. Live Server
-
-## 7. Lorem ipsum
-
-## 8. PHP Namespace Resolver
-
-## 9. Shades of Purple (Theme)
-
-## 10. vscode-icons
-
-## 11. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studio code
-
-## 12. Laravel Artisan
-
-## 13. Laravel Blade Snippets
-
-## 14. Laravel Snippets
-
-## 15. Vue Theme
-
-## 16. vue
-
-## 17. Vue 2 Snippets
-
-## 18. PHP Intelephense
-
-## 19. jQuery Code Snippets
-
-## 20. Night Owl (Theme)
-
-## 21. Palenight Theme
+## For Blade:
+````
+	"print": {
+		"prefix": "print",
+		"body": [
+			"{{ $1 }}",
+		],
+		"description": "print value in blade file."
+	}
+````
