@@ -4,6 +4,12 @@ All of my vs code extensions &amp; setup method
 ## Basic Things:
 ### 1. Prettier - Code formatter
 Goto settings and type "format on save" and search. Then, tick on "format on save".
+<br>
+Goto settings.json and paste this
+````
+"prettier.jsxSingleQuote": true,
+"prettier.singleQuote": true
+````
 
 ### 2. Auto Rename Tag
 
